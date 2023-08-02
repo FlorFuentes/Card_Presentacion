@@ -11,8 +11,11 @@
  }
 
  .container {
+    min-width: 50%;
+    max-width: 100%;
      width: 100%;
      padding: 10px;
+     box-sizing: border-box;
  }
 
  .card {
@@ -44,8 +47,8 @@
      text-align: left;
  }
 
- h2 {
-     text-align: left;
+ p{
+    font-family:'Courier New', Courier, monospace;
  }
 
  .botones {
@@ -94,4 +97,5 @@
      .botones {
          align-items: center;
      }
+    
  }
