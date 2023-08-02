@@ -22,8 +22,8 @@
      */
 
  .card {
-     background-color: white;
-     display: flex;
+     background-color:white;
+     display: flex; 
      border: 5px solid rgba(74, 202, 238, 0.642);
      border-radius: 10px;
      overflow: hidden;
@@ -54,10 +54,14 @@
 
  .botones {
      margin: 30px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
  }
 
  .contacto {
      margin-top: 20px;
+     margin-right: 1rem;
      font-size: 1.6rem;
      background-color: white;
      color: black;
@@ -81,11 +85,14 @@
      .card {
          flex-direction: column;
      }
-
+     .img-perfil img {
+        max-width: 50%;
+    }
      .img-perfil,
      .info {
          text-align: center;
      }
+    
 
      .info {
          padding-top: 20px;
