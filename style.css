@@ -1,141 +1,142 @@
- body {
-     font-family: 'Bacasime Antique', serif;
-     margin: 0;
-     padding: 0;
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     height: 100vh;
+body {
+    font-family: 'Bacasime Antique', serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*  height: 100vh; */
+    width: 100vw;
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+}
 
-     background: rgb(238, 174, 202);
-     background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
- }
+.container {
+    overflow: visible;
+    width: 100%;
+}
 
- .container {
-     overflow: visible;
- }
-
- /* 
+/* 
  .container {
     min-width: 50%; */
- /*  max-width: 100%; 
+/*  max-width: 100%; 
    width: 100%;
      padding: 10px;
      box-sizing: border-box;
  }
      */
 
- .card {
-     background-color: white;
-     display: flex;
-     border: 5px solid rgba(74, 202, 238, 0.642);
-     border-radius: 10px;
-     overflow: hidden;
- }
+.card {
+    background-color: white;
+    display: flex;
+    border: 5px solid rgba(74, 202, 238, 0.642);
+    border-radius: 10px;
+    overflow: hidden;
+}
 
- .img-perfil {
+.img-perfil {
 
-     padding: 10px;
- }
+    padding: 10px;
+}
 
- .img-perfil img {
-     width: 10rem;
-     height: auto;
- }
+.img-perfil img {
+    width: 10rem;
+    height: auto;
+}
 
- .info {
+.info {
 
-     display: flex;
-     flex-direction: column;
-     align-items: center;
- }
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
- h1 {
-     text-align: center;
- }
-
-
-
- .redes {
-     min-height: 10px;
-     width: 100%;
-     text-align: center;
-
-     /* margin: 30px; */
-     display: flex;
-     align-items: center;
-     justify-content: center;
- }
-
- .fa-brands.fa-github {
-     color: #171515;
- }
-
- .fa-brands.fa-telegram {
-     color: #0088cc;
- }
-
- .fa-brands.fa-linkedin {
-     color: #0e76a8;
- }
-
- .fa-brands.fa-whatsapp {
-     color: #25D366;
- }
-
- .fa-solid.fa-envelope {
-     color: rgb(17, 22, 22);
- }
-
- /*MOVIMIENTO ICONOS CUANDO PASO EL MOUSE */
- .fa-brands.fa-github:hover {
-     --bs-text-opacity: 100%;
-     transform: scale(1.3, 1.3);
-     transition: all 0.5s ease;
- }
+h1 {
+    text-align: center;
+}
 
 
 
- .fa-brands.fa-linkedin:hover {
-     --bs-text-opacity: 1;
-     transform: scale(1.3, 1.3);
-     transition: all 0.5s ease;
- }
+.redes {
+    min-height: 10px;
+    width: 100%;
+    text-align: center;
 
- .fa-brands.fa-telegram:hover {
-     --bs-text-opacity: 1;
-     transform: scale(1.3, 1.3);
-     transition: all 0.5s ease;
- }
+    /* margin: 30px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fa-brands.fa-github {
+    color: #171515;
+}
+
+.fa-brands.fa-telegram {
+    color: #0088cc;
+}
+
+.fa-brands.fa-linkedin {
+    color: #0e76a8;
+}
+
+.fa-brands.fa-whatsapp {
+    color: #25D366;
+}
+
+.fa-solid.fa-envelope {
+    color: rgb(17, 22, 22);
+}
+
+/*MOVIMIENTO ICONOS CUANDO PASO EL MOUSE */
+.fa-brands.fa-github:hover {
+    --bs-text-opacity: 100%;
+    transform: scale(1.3, 1.3);
+    transition: all 0.5s ease;
+}
 
 
- .fa-brands.fa-whatsapp:hover {
-     --bs-text-opacity: 1;
-     transform: scale(1.3, 1.3);
-     transition: all 0.5s ease;
- }
 
- .fa-solid.fa-envelope:hover {
-     --bs-text-opacity: 1;
-     transform: scale(1.3, 1.3);
-     transition: all 0.5s ease;
- }
+.fa-brands.fa-linkedin:hover {
+    --bs-text-opacity: 1;
+    transform: scale(1.3, 1.3);
+    transition: all 0.5s ease;
+}
 
- /* Iconos */
+.fa-brands.fa-telegram:hover {
+    --bs-text-opacity: 1;
+    transform: scale(1.3, 1.3);
+    transition: all 0.5s ease;
+}
 
- i.fa-brands {
-     font-size: 23px;
-     padding: 10px 20px;
 
- }
+.fa-brands.fa-whatsapp:hover {
+    --bs-text-opacity: 1;
+    transform: scale(1.3, 1.3);
+    transition: all 0.5s ease;
+}
 
- i.fa-solid {
-     font-size: 23px;
-     padding: 10px 20px;
+.fa-solid.fa-envelope:hover {
+    --bs-text-opacity: 1;
+    transform: scale(1.3, 1.3);
+    transition: all 0.5s ease;
+}
 
- }
+/* Iconos */
 
- /* .contacto {
+i.fa-brands {
+    font-size: 23px;
+    padding: 10px 20px;
+
+}
+
+i.fa-solid {
+    font-size: 23px;
+    padding: 10px 20px;
+
+}
+
+/* .contacto {
      margin-top: 20px;
      margin-right: 1rem;
      font-size: 1.6rem;
@@ -156,36 +157,36 @@
      background-color: rgba(74, 202, 238, 0.642);
  }
  */
- /*************************** Aplicar estilos cuando la pantalla sea menor o igual a 750px****************************/
- @media screen and (max-width: 750px) {
-     .card {
-         flex-direction: column;
-     }
+/*************************** Aplicar estilos cuando la pantalla sea menor o igual a 750px****************************/
+@media screen and (max-width: 750px) {
+    .card {
+        flex-direction: column;
+    }
 
-     .img-perfil img {
-         max-width: 50%;
-     }
+    .img-perfil img {
+        max-width: 50%;
+    }
 
-     .img-perfil,
-     .info {
-         text-align: center;
-     }
+    .img-perfil,
+    .info {
+        text-align: center;
+    }
 
 
-     .info {
-         padding-top: 20px;
-     }
+    .info {
+        padding-top: 20px;
+    }
 
-     .img-perfil img {
-         max-width: 50%;
-     }
+    .img-perfil img {
+        max-width: 50%;
+    }
 
-     .redes {
-         align-items: center;
-     }
+    .redes {
+        align-items: center;
+    }
 
-     .container {
-         padding: 20px;
-     }
+    .container {
+        padding: 20px;
+    }
 
- }
+}
